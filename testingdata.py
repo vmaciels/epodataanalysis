@@ -6,8 +6,6 @@ import os
 import time
 import dataextraction
 
-tls="~/Documents/estudo/redes_comp/patstat_spring_2021/tls/data_PATSTAT_Global_2021_Spring_01/tls202_part01.csv"
-
 abst=pd.read_csv('teste.csv')
 abst=abst.values.tolist()
 ids=[a[1] for a in abst]
